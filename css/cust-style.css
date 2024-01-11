@@ -1,0 +1,150 @@
+
+.customer-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .customer-table {
+    width: 60%;
+  }
+  
+  .customer-table h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .customer-table table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .customer-table thead {
+    background-color: #f9f9f9;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .customer-table th,
+  .customer-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .customer-table td {
+    vertical-align: middle;
+  }
+  
+  .customer-table .view-details-btn {
+    background-color: transparent;
+    border: none;
+    color: #45a049;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 14px;
+    transition: color, font-size 0.2s ease-in-out;
+  }
+  
+  .customer-table .view-details-btn:hover {
+    color: #007bff;
+    
+  }
+  
+  .customer-form {
+    width: 35%;
+    margin-top: 20px;
+  }
+  
+  .customer-form h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .customer-form input[type="number"],
+  .customer-form input[type="text"],
+  .customer-form input[type="tel"],
+  .customer-form input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    outline: none;
+  }
+  
+  .customer-form input[type="text"]:focus,
+  .customer-form input[type="tel"]:focus,
+  .customer-form input[type="email"]:focus {
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5);
+  }
+  
+  .customer-form .form-buttons {
+     width:100%;
+  }
+  
+  .customer-form .add-btn,
+  .customer-form .edit-btn,
+  .customer-form .cancel-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 5px;
+    transition: background-color 0.2s ease-in-out;
+    width:31%;
+  }
+  
+  .customer-form .add-btn:hover,
+  .customer-form .edit-btn:hover,
+  .customer-form .cancel-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .customer-details {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .customer-details > div {
+    width: 30%;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .customer-details
+  {
+  font-size: 16px;
+  }
+  
+  .customer-details h4 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  }
+  
+  .customer-details p {
+  margin-bottom: 10px;
+  }
+  
+  

@@ -1,0 +1,257 @@
+.order-section {
+  padding: 20px;
+}
+
+.search-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.order-buttons {
+display: flex;
+flex-direction: row; 
+align-items: center;
+justify-content: center;
+} 
+
+
+.search-form > * {
+  margin: 5px;
+} 
+
+#search-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#separator{ margin-left:10px; margin-right:10px; }
+
+/* Style input fields */
+input[type="date"] {
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Style labels */
+label {
+  font-weight: bold;
+}
+
+.order-buttons button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.order-buttons button:hover {
+  background-color: #45a049;
+}
+
+.order-products-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.order-products-table th,
+.order-products-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.order-products-table th {
+  background-color: #f2f2f2;
+}
+
+.order-products-table td:last-child {
+  text-align: center;
+}
+
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 5px;
+}
+
+.modal h3 {
+  margin-bottom: 10px;
+}
+
+.customer-table,
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.customer-table th,
+.customer-table td,
+.product-table th,
+.product-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.customer-table th {
+  background-color: #f2f2f2;
+}
+
+.modal-content .close-btn {
+  color: #888;
+  float: right;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-content .close-btn:hover,
+.modal-content .close-btn:focus {
+  color: #000;
+  text-decoration: none;
+}
+
+
+.select-customer-btn{ border: none; background-color: #555; color:#fff; padding: 10px 20px; 
+                      border-radius: 5px; font-size: 16px; cursor: pointer; 
+                      transition: all 0.2s ease-in-out; width:100%; margin-top:10px;
+                    }
+
+.select-customer-btn:hover{ background-color: #333; }
+
+
+#customerIdInput {
+  background: none;
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  font-size: inherit;
+  color: inherit;
+}
+
+
+.generate-btn {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    width:100%;
+}
+
+
+
+
+
+
+
+     
+    #orderDetailsTable {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+#orderDetailsTable th, #orderDetailsTable td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  #orderDetailsTable th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+  }
+
+  .details-btn {
+    background-color: #777;
+  }
+
+#generate-invoice {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    width:100%;
+    margin-top:10px;
+}
+
+#generate-invoice:hover {
+  background-color: #0056b3;
+}
+
+#generate-invoice:focus {
+  outline: none;
+}
+
+#generate-invoice:active {
+  background-color: #004080;
+}
+
+
+
+
+
+#order-total-value {
+    margin-top:20px;
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  color: #333;
+  text-align:center;
+  font-weight: bold;
+  text-shadow: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+#order-total-value:hover {
+  background-color: #e6e6e6;
+}
+
+
+
+
+
+.close{ color:#aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer; }
+
+.close:hover{ color:#000; cursor: pointer; }
+
